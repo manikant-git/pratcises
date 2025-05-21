@@ -1,0 +1,17 @@
+name: Build and push image
+
+on: 
+ push:
+  branches: [ master ]
+ pull_request: 
+  brances: [master ]
+
+jobs:
+ Build:
+  runs-on: ubuntu-latest
+  steps:
+   -uses: actions/checkout@v3
+   
+ 
+  
+  
